@@ -9,6 +9,4 @@ PRODUCT_MAKEFILES := \
     $(LOCAL_DIR)/omni_M0215_ND.mk
 
 COMMON_LUNCH_CHOICES := \
-    omni_M0215_ND-user \
-    omni_M0215_ND-userdebug \
-    omni_M0215_ND-eng
+    twrp_M0215_ND-eng
