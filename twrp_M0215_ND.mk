@@ -26,4 +26,9 @@ PRODUCT_GMS_CLIENTID_BASE := android-blu
 PRODUCT_BUILD_PROP_OVERRIDES += \
     PRIVATE_BUILD_DESC="vnd_q864_8766_64_t-user 12 SP1A.210812.016 YM14001R release-keys"
 
-BUILD_FINGERPRINT := BLU/M10L_Pro/M0215_ND:12/SP1A.210812.016/YM14001R:user/release-keys
+# Dynamic Partition
+PRODUCT_USE_DYNAMIC_PARTITIONS := true
+
+# Fastbootd
+PRODUCT_PACKAGES += \
+    android.hardware.fastboot@1.0-impl-mock
