@@ -2,3 +2,7 @@ ro.adb.secure=0
 ro.sys.usb.mtp.whql.enable=0
 ro.sys.usb.storage.type=mtp
 ro.treble.enabled=true
+
+# Crypto
+ro.crypto.volume.filenames_mode=aes-256-cts
+fbe.metadata.wrappedkey=true
